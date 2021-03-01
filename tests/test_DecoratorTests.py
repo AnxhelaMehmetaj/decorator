@@ -2,7 +2,6 @@ import unittest
 from Decorator.decorator import do_twice
 
 
-
 @do_twice
 def say_whee():
     print("Whee....!")
@@ -17,7 +16,7 @@ class MyTestCase(unittest.TestCase):
     def setUp(self) -> None:
         pass
 
-    def test_decorate(self):
+    def test_decorate(say_whee):
         say_whee()
 
 

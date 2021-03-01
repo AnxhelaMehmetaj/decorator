@@ -3,4 +3,4 @@ def do_twice(func):
         func()
         func()
 
-    return
+    return wrapper_do_twice()
